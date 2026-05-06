@@ -1,0 +1,79 @@
+{
+  "DE": {
+    "country": "Germany",
+    "tax_type": "VAT",
+    "standard_rate": 0.19,
+    "digital_services_rate": 0.19,
+    "currency": "EUR",
+    "region": "EU",
+    "notes": "Digital services taxed at standard rate under EU VAT rules",
+    "last_updated": "2025-01-01",
+    "confidence": "verified"
+  },
+  "GB": {
+    "country": "United Kingdom",
+    "tax_type": "VAT",
+    "standard_rate": 0.20,
+    "digital_services_rate": 0.20,
+    "currency": "GBP",
+    "region": "UK",
+    "notes": "Post-Brexit UK VAT applies. Separate from EU VAT OSS.",
+    "last_updated": "2025-01-01",
+    "confidence": "verified"
+  },
+  "US-CA": {
+    "country": "United States - California",
+    "tax_type": "sales_tax",
+    "standard_rate": 0.0725,
+    "digital_services_rate": 0.00,
+    "currency": "USD",
+    "region": "US",
+    "notes": "California does not tax SaaS/digital subscriptions as of 2025. Physical goods rate is 7.25%.",
+    "last_updated": "2025-01-01",
+    "confidence": "verified"
+  },
+  "US-TX": {
+    "country": "United States - Texas",
+    "tax_type": "sales_tax",
+    "standard_rate": 0.0625,
+    "digital_services_rate": 0.0625,
+    "currency": "USD",
+    "region": "US",
+    "notes": "Texas taxes SaaS and digital subscriptions at 6.25% state rate. Local rates may add up to 2%.",
+    "last_updated": "2025-01-01",
+    "confidence": "verified"
+  },
+  "KE": {
+    "country": "Kenya",
+    "tax_type": "VAT",
+    "standard_rate": 0.16,
+    "digital_services_rate": 0.16,
+    "currency": "KES",
+    "region": "Africa",
+    "notes": "Kenya taxes foreign digital services at 16% VAT. Non-resident digital suppliers must register with KRA.",
+    "last_updated": "2025-01-01",
+    "confidence": "verified"
+  },
+  "NG": {
+    "country": "Nigeria",
+    "tax_type": "VAT",
+    "standard_rate": 0.075,
+    "digital_services_rate": 0.075,
+    "currency": "NGN",
+    "region": "Africa",
+    "notes": "Nigeria levies 7.5% VAT on digital services supplied by non-resident companies.",
+    "last_updated": "2025-01-01",
+    "confidence": "verified"
+  },
+  "AU": {
+    "country": "Australia",
+    "tax_type": "GST",
+    "standard_rate": 0.10,
+    "digital_services_rate": 0.10,
+    "currency": "AUD",
+    "region": "APAC",
+    "notes": "GST applies to digital services supplied to Australian consumers. Non-resident suppliers must register if revenue exceeds AUD 75,000.",
+    "last_updated": "2025-01-01",
+    "confidence": "verified"
+  }
+}
